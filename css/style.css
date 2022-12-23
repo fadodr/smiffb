@@ -343,6 +343,10 @@ body {
   padding: 20px;
 }
 
+.dashboard-section-3 #donationAnalytics {
+  height: 250px !important;
+}
+
 .dashboard-section-3 .analytics-header {
   display: flex;
   justify-content: space-between;
@@ -440,6 +444,25 @@ body {
   vertical-align: text-top;
 }
 
+.dashboard-section-4 table td p {
+  width: 80px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 3px 5px;
+  font-size: var(--mini-paragraph);
+  font-weight: 500;
+}
+
+.dashboard-section-4 table td p.approved {
+  background-color: #1ec6771a;
+  color: #1ec677;
+}
+
+.dashboard-section-4 table td p.pending {
+  background-color: #ee9b001a;
+  color: #ee9b00;
+}
+
 .dashboard-section-4 table button {
   background-color: var(--red);
   border-radius: 8px;
@@ -453,3 +476,93 @@ body {
   cursor: pointer;
 }
 /* Dashboard End */
+
+/* details modal */
+.details-modal {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: 0px 4px 24px 0px #bfbfbf40;
+  transition: all 0.3s ease;
+  overflow-y: scroll;
+}
+
+.details-modal::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.details-modal::-webkit-scrollbar-thumb {
+  background-color: #cccccc;
+  border-radius: 20px;
+}
+
+.details-modal.show {
+  right: 0;
+}
+
+.details-modal .details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 0 20px;
+}
+
+.details-modal .details-header img {
+  cursor: pointer;
+}
+
+.details-modal .details-body {
+  padding: 20px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.details-body .details-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.details-body .details-row .content-item:nth-child(2) {
+  width: 120px;
+}
+
+.details-content .content-item .detail {
+  color: #727272;
+  font-size: var(--mini-paragraph);
+  margin: 0;
+}
+
+.details-content .content-item .value {
+  margin-top: 10px;
+  font-size: var(--small-paragraph);
+}
+
+.details-content .content-item .value.blood {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.details-content .content-item .value.pending {
+  color: #ee9b00;
+}
+
+.details-content .content-item .value.verified {
+  color: #1ec677;
+}
+
+.details-content .content-item button {
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: var(--red);
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+}

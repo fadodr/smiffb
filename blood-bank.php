@@ -130,9 +130,9 @@
                   <td>" . $row['fullname'] . "</td>
                   <td>" . $row['blood_type'] . "</td>
                   <td>" . $row['genotype'] . "</td>
-                  <td>" . $row['blood_status'] . "</td>
+                  <td><p class="approved">• Approved</p></td>
                   <td>" . $row['date_donated'] . "</td>
-                  <td><button>View</button></td>
+                  <td><button onclick="toggleModal()">View</button></td>
                 </tr>";
         }
         echo "<tbody>
@@ -144,8 +144,62 @@
   </div>
   <!-- Dashboard End -->
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="js/admin-dashboard.js"></script>
+  <!-- Entry details -->
+  <div id="detailsModal" class="details-modal">
+    <div class="details-header">
+      <h3>Blood Info</h3>
+      <img src="images/close.png" onclick="toggleModal()" />
+    </div>
+    <div class="details-body">
+      <div class="details-content">
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Date</p>
+            <p class="value">11 November 2022, 14:28:21</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor</p>
+            <p class="value">Atanda Damilare</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Blood Type</p>
+            <p class="value blood">O+</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor Email</p>
+            <p class="value">atandadray@gmail.com</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Donor Phone Number</p>
+            <p class="value">08123456789</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value verified">• Verified</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value pending">• Pending</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <button class="approval-btn">Confirm Blood Approval</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Entry details end -->
+  
+  <script src="js/script.js"></script>
+
 </body>
 
 </html>

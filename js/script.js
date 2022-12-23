@@ -1,4 +1,5 @@
 const ctx = document.getElementById("donationAnalytics");
+const modal = document.getElementById("detailsModal");
 
 new Chart(ctx, {
   type: "line",
@@ -42,6 +43,7 @@ new Chart(ctx, {
   },
   options: {
     responsive: true,
+    maintainAspectRatio: false,
     legend: { display: false },
     scales: {
       x: {
@@ -69,3 +71,7 @@ new Chart(ctx, {
     },
   },
 });
+
+function toggleModal() {
+  modal.classList.toggle("show");
+}

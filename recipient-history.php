@@ -83,116 +83,146 @@
             }
           ?>
           ?>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Agboola Fuhad</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oluwafemi Seun Paul</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oni Temidayo</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Agboola Fuhad</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oluwafemi Seun Paul</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Agboola Fuhad</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oluwafemi Seun Paul</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oni Temidayo</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Agboola Fuhad</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oluwafemi Seun Paul</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Agboola Fuhad</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oluwafemi Seun Paul</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oni Temidayo</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Agboola Fuhad</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
-          <tr>
-            <td>Atanda Damilare</td>
-            <td>Oluwafemi Seun Paul</td>
-            <td>4</td>
-            <td>Oct 1, 2022</td>
-            <td><button>View</button></td>
-          </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Agboola Fuhad</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Oluwafemi Seun Paul</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Oni Temidayo</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Agboola Fuhad</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Oluwafemi Seun Paul</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Oni Temidayo</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Agboola Fuhad</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Oluwafemi Seun Paul</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
+            <tr>
+              <td>Atanda Damilare</td>
+              <td>Oni Temidayo</td>
+              <td>4</td>
+              <td>Oct 1, 2022</td>
+              <td><button onclick="toggleModal()">View</button></td>
+            </tr>
         </tbody>
       </table>
     </div>
   </div>
   <!-- Dashboard End -->
+
+   <!-- Entry details -->
+  <div id="detailsModal" class="details-modal">
+    <div class="details-header">
+      <h3>Blood Donation</h3>
+      <img src="images/close.png" onclick="toggleModal()" />
+    </div>
+    <div class="details-body">
+      <p>Donor Info:</p>
+      <div class="details-content">
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Date</p>
+            <p class="value">11 November 2022, 14:28:21</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor</p>
+            <p class="value">Atanda Damilare</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Blood Type</p>
+            <p class="value blood">O+</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor Email</p>
+            <p class="value">atandadray@gmail.com</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Donor Phone Number</p>
+            <p class="value">08123456789</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value verified">• Verified</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value pending">• Pending</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="details-body">
+      <p>Patient Info:</p>
+      <div class="details-content">
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Patient Name</p>
+            <p class="value">Agboola Fuhad</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Reason</p>
+            <p class="value">
+              He was thinking about Bisola while driving. He later had an
+              accident and needed a lot of blood
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Entry details end -->
+  
+  <script src="js/script.js"></script>
 </body>
 
 </html>
