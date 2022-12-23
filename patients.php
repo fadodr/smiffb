@@ -86,7 +86,7 @@
                       <td>".$row['phone']."</td>
                       <td>".$row['blood_type']."</td>
                       <td>".$row['genotype']. "</td>
-                      <td><button>View</button></td>
+                      <td><button onclick="toggleModal()">View</button></td>
                     </tr>";
             }
           ?>
@@ -96,8 +96,134 @@
   </div>
   <!-- Dashboard End -->
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="js/admin-dashboard.js"></script>
+  <!-- Entry details -->
+  <div id="detailsModal" class="details-modal">
+    <div class="details-header">
+      <h3>Patient Info</h3>
+      <img src="images/close.png" onclick="toggleModal()" />
+    </div>
+    <div class="details-body">
+      <div class="details-content">
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Date</p>
+            <p class="value">11 November 2022, 14:28:21</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Full Name</p>
+            <p class="value">Atanda Damilare</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Blood Type</p>
+            <p class="value blood">O+</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Patient Email</p>
+            <p class="value">atandadray@gmail.com</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Patient Phone Number</p>
+            <p class="value">08123456789</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Total donors</p>
+            <p class="value">2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="details-body">
+      <p>Donor Info-1:</p>
+      <div class="details-content">
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Date</p>
+            <p class="value">11 November 2022, 14:28:21</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor</p>
+            <p class="value">Atanda Damilare</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Blood Type</p>
+            <p class="value blood">O+</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor Email</p>
+            <p class="value">atandadray@gmail.com</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Donor Phone Number</p>
+            <p class="value">08123456789</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value verified">• Verified</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value pending">• Pending</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="details-body">
+      <p>Donor Info-2:</p>
+      <div class="details-content">
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Date</p>
+            <p class="value">11 November 2022, 14:28:21</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor</p>
+            <p class="value">Atanda Damilare</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Blood Type</p>
+            <p class="value blood">O+</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Donor Email</p>
+            <p class="value">atandadray@gmail.com</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Donor Phone Number</p>
+            <p class="value">08123456789</p>
+          </div>
+        </div>
+        <div class="details-row">
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value verified">• Verified</p>
+          </div>
+          <div class="content-item">
+            <p class="detail">Status</p>
+            <p class="value pending">• Pending</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Entry details end -->
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
